@@ -29,7 +29,7 @@ if __name__ == "__main__":
             clean_data.append(data_sort[i])
 
     csv_writer(clean_data, "C:/Users/Klime/Desktop/Model.csv")
-    print(clean_data)
+    #print(clean_data)
 
     # print(len(data))
     # print(len(data_sort))
