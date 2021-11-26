@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
     for i in range(len(data)):
         if data[i][3:4] == ['legit']:
-            data_sort.append(data[i][1:5])
+            data_sort.append(data[i][1:4])
 
     for i in range(len(data_sort)):
         if len(data_sort[i][0].split(".")) == 2:
